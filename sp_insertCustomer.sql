@@ -7,11 +7,11 @@ SET QUOTED_IDENTIFIER ON
 GO
 
 Create PROCEDURE [dbo].[sp_insertCustomer] (
- @customerFirstName NVARCHAR(20),
- @customerLastName NVARCHAR(20),
- @customerAddress NVARCHAR(200),
- @customerMobile NVARCHAR(15),
- @customerEmail NVARCHAR(50))
+ @customerFirstName VARCHAR(20),
+ @customerLastName VARCHAR(20),
+ @customerAddress VARCHAR(200),
+ @customerMobile VARCHAR(15),
+ @customerEmail VARCHAR(50))
 AS
 BEGIN
 

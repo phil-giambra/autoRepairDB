@@ -7,13 +7,13 @@ SET QUOTED_IDENTIFIER ON
 GO
 
 Create PROCEDURE [dbo].[sp_insertVehicle_2] (
- @vehicleVIN NVARCHAR(50),
- @vehicleLicensePlate NVARCHAR(20),
- @vehicleModel NVARCHAR(50),
- @vehicleManufacturer NVARCHAR(50),
+ @vehicleVIN VARCHAR(50),
+ @vehicleLicensePlate VARCHAR(20),
+ @vehicleModel VARCHAR(50),
+ @vehicleManufacturer VARCHAR(50),
  @vehicleYear int,
- @vehicleColor NVARCHAR(50),
- @customerMobile NVARCHAR(15))
+ @vehicleColor VARCHAR(50),
+ @customerMobile VARCHAR(15))
 AS
 BEGIN
 
