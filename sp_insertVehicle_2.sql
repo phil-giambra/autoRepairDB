@@ -1,4 +1,4 @@
-USE [PenguinDatabase]
+USE [penguin]
 GO
 /****** Object:  StoredProcedure [dbo].[sp_insertVehicle]    Script Date: 4/16/2022 10:10:38 PM ******/
 SET ANSI_NULLS ON

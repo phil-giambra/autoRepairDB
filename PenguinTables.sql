@@ -1,4 +1,4 @@
-Use PenguinDatabase
+Use penguin
 
 CREATE TABLE customer (
  [id] [int] PRIMARY KEY IDENTITY(1,1) NOT NULL,
